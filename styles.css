@@ -10,7 +10,23 @@ body{
     background-color: gray
 }
 
+.header{
+    display: flex;
+    float: right;
+    font-size: large;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+}
 
 
-
-
+.socials a:nth-child(1){
+    color: yellow
+}
+.socials a:nth-child(2){
+    color: black;
+}
+.socials a:nth-child(3){
+    color: darkred
+}
