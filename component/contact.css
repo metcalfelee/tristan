@@ -85,6 +85,7 @@ button{
     border-radius: 30px;
     margin-top: 20px;
     box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+    cursor: pointer;
 }
 .contact-left h3{
     color: black;
@@ -106,4 +107,6 @@ tr td{
     padding-top: 20px;
     font-family: 'poppins';
 }
+
+
 
