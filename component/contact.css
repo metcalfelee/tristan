@@ -7,7 +7,7 @@
 }
 
 body{
-    background: gray;
+    background: #081b29;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
@@ -65,7 +65,7 @@ input{
 
 textarea{
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #00abf0;
     outline: none;
     padding: 10px;
     box-sizing: border-box;
@@ -115,6 +115,7 @@ tr td{
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    margin-top: 50px;
 }
 .navbar a:hover, 
 .navbar a.active {
