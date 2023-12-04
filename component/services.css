@@ -76,6 +76,8 @@ body{
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
+    margin-top: 50px;
+    align-items: center;
 }
 .navbar a:hover, 
 .navbar a.active {
