@@ -24,34 +24,40 @@
         <div class="contact-box">
             <div class="contact-left">
                 <h3>Send your request</h3>
-                <form action="https://formsubmit.co/metcalfetristan8@gmail.com" method="POST"></form>
+                <form action="https://formsubmit.co/metcalfetristan8@gmail.com" 
+                method="POST"
+                >
                          <div class="input-row">
                             <div class="input-group">
                                 <label>Name</label>
-                                <input type="text" placeholder="John Doe" required>
+                                <input name="name" class="form-control" required/>
                             </div>
                             <div class="input-group">
                                 <label>Phone</label>
-                                <input type="text" placeholder="999-999-9999" required>
+                                <input name="Phone" class="form-control" type="text" placeholder="999-999-9999" required/>
                             </div>
                          
                         </div>
                          <div class="input-row">
                             <div class="input-group">
                                 <label>Email</label>
-                                <input type="text" placeholder="you@example.com" required>
+                                <input name="Email" type="email" class="form-control"  required/>
                             </div>
                             <div class="input-group">
                                 <label>Subject</label>
-                                <input type="text" placeholder="Project" required>
+                                <input type="text" placeholder="Project" class="form-control" required/>
                             </div>
                         
                         </div>
 
                         <label>Message</label>
-                        <textarea rows="5" placeholder="Your Message"></textarea required>
-
-                        <button  class="submit"  type="submit">SEND</button>
+                        <textarea 
+                        name="Message"
+                        rows="5"  
+                        class="form-control"
+                        required>
+                        </textarea>
+                        <button   class="submit"  type="submit">Submit</a></button>
                
                     </form>
 
