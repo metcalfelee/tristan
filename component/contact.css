@@ -121,5 +121,8 @@ tr td{
 .navbar a.active {
     color: #00abf0;
 }
-
+.navbar{
+    display: flex;
+    justify-content: center;
+}
 
