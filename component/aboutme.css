@@ -6,6 +6,10 @@
     font-family: 'poppins', sans-serif;
     text-align: center;
 }
+body{
+    margin: 0;
+    overflow-y: hidden;
+}
 img{
     width: 300px;
     height: 350px;
@@ -63,7 +67,7 @@ article p{
 }
 .navbar a {
     font: size 18px; ;
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
