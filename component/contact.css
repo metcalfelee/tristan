@@ -125,4 +125,7 @@ tr td{
     display: flex;
     justify-content: center;
 }
+.required{
+    color: #00abf0;
+}
 
