@@ -114,7 +114,7 @@ tr td{
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    transition: .3s;
+    transition: 1s;
     margin-top: 50px;
 }
 .navbar a:hover, 
