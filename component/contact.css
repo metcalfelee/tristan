@@ -129,3 +129,7 @@ tr td{
     color: #00abf0;
 }
 
+.phone-number{
+    text-decoration: underline #00abf0;
+    
+}
