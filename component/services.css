@@ -66,9 +66,9 @@ body{
     border-radius: 5px;
     letter-spacing: 1px;
 }
-.button::hover{
+.button a:hover::before{
     background-color: #081b29;
-    transition: 0.4s ease;
+    
 }
 .navbar a {
     font-size: 18px;
@@ -86,4 +86,8 @@ body{
 .navbar{
     display: flex;
     justify-content: center;
+}
+.button a:hover::after{
+    background-color: #00abf0;
+    
 }
