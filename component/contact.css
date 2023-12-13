@@ -129,5 +129,5 @@ tr td{
     color: #00abf0;
 }
 .Phone-number{
-    text-decoration: line-through #00abf0;
+    text-decoration: dotted #00abf0;
 }
