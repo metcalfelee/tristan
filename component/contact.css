@@ -133,4 +133,6 @@ tr td{
 }
 .buttonbb a{
     background-color: #081b29;
+    width: fit-content;
+    height: fit-content;
 }
