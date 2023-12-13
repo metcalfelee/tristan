@@ -1,12 +1,17 @@
- @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Poppins:wght@500&display=swap');
  *{
     margin: 0;
     padding: 0;
-    font-family: 'Kalnia', sans-serif;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     outline: none;
     color: #fff;
  }
+ section{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   background-color: #081b29;
+}
  body{
     display: flex;
     min-height: 100vh;
@@ -45,6 +50,7 @@
     border-radius: 3px;
     background: #181717;
     padding: 0 15px;
+    padding-right: 45px;
     font-size: 20px;
  }
  form textarea{
@@ -56,3 +62,29 @@
     width: 100%;
     margin: 4px 0;
  }
+ form button{
+   margin-top: 5px;
+   border: none;
+   background: #081b29;
+   color: #00abf0;
+   padding: 10px 0;
+   width: 100%;
+   font-size: 20px;
+   font-weight: 800;
+   cursor: pointer;
+   border-radius: 3px;
+ }
+ form input:focus,
+ form textarea:focus{
+   border: 1px solid #00abf0;
+   color: #00abf0;
+   transition: all 0.3s ease;
+ }
+ form input:focus::placeholder,
+ form textarea:focus::placeholder{
+   padding-left: 4px;
+   color: #00abf0;
+   transition: all 0.3s ease;   
+ }
+ 
+ 
