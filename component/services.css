@@ -89,5 +89,4 @@ body{
 }
 .button a:hover::after{
     background-color: #00abf0;
-    
 }
