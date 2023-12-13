@@ -128,6 +128,9 @@ tr td{
 .required{
     color: #00abf0;
 }
-.Phone-number{
-    text-decoration: line-through #00abf0;
+.yellow{
+    text-decoration: underline #00abf0;
+}
+.button{
+    
 }
