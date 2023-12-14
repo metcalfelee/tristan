@@ -151,3 +151,19 @@ tr td{
 .yello{
     color: #00abf0;
 }
+.Drop{
+    font-size: 12.5px;
+    text-decoration: none;
+    color: #081b29;
+    background-color: #00abf0;
+    padding: 6px 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: 'poppins';
+    border-color: #081b29;
+    
+}
+.Drop a:hover::before{
+    background-color: #00abf0;
+    
+}
