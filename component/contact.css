@@ -58,7 +58,7 @@ h1{
 input{
     width: 100%;
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #00abf0;
     outline: none;
     padding-bottom: 5px;
 }
@@ -77,15 +77,15 @@ label{
     display: block;
     color: black
 }
-button{
-    width: 70px;
-    color: black;
-    height: 25px;
+.submit{
+    font-size: 15px;
+    text-decoration: none;
+    color: #081b29;
+    background-color: #00abf0;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
     font-family: 'poppins';
-    border-radius: 30px;
-    margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
-    cursor: pointer;
 }
 .contact-left h3{
     color: black;
@@ -130,4 +130,24 @@ tr td{
 }
 .Phone-number{
     text-decoration: line-through #00abf0;
+}
+.buttonbb{
+    font-size: 15px;
+    text-decoration: none;
+    color: #081b29;
+    background-color: #00abf0;
+    padding: 8px 12px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: 'poppins';
+    border-color: #081b29;
+    
+}
+.buttonbb a:hover::before{
+    background-color: #00abf0;
+    
+}
+
+.yello{
+    color: #00abf0;
 }
