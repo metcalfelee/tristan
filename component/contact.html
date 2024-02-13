@@ -3,108 +3,73 @@
 <head>
     <link rel="icon" href="favicon.ico" />
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>contact</title>
-    <link rel="stylesheet" href="contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact1.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
       </style>
-    
 </head>
 <body>
-      
-    <div class="container">
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="aboutme.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html" class="active">Contact</a>
-            <a href="ind.html">Feedback</a>
-        </nav>
-        <h1 class="header">Connect With Us</h1>
-        <p class="header">We would love to respond to you interests and help you succeed. <br>Feel free to contact us.</p>
-        <div class="contact-box">
-            <div class="contact-left">
-                <h3>Send your request</h3>
-                <form action="https://formsubmit.co/metcalfetristan8@gmail.com" 
-                method="POST"
-                >
-                         <div class="input-row">
-                            <div class="input-group">
-                                <label><span class="required">*</span>Name</label>
-                                <input 
-                                name="name" 
-                                class="form-control" 
-                                required/>
-                            </div>
-                            <div class="input-group">
-                                <label><span class="required">*</span>Phone</label>
-                                <input
-                                 name="Phone" 
-                                 class="form-control" 
-                                 type="Phone-Number"
-                                 placeholder="999-999-9999" 
-                                 required/>
-                            </div>
-                         
-                        </div>
-                         <div class="input-row">
-                            <div class="input-group">
-                                <label><span class="required">*</span>Email</label>
-                                <input 
-                                 name="Email"
-                                 type="email" 
-                                 class="form-control"  
-                                 required/>
-                            </div>
-                            <div class="input-group">
-                                <label><span class="required">*</span>Service</label>
-                                 <select class="Drop" name="Service" id="languages"required >
-                                    <option value="Website Renovation">Website Renovation</option>
-                                    <option value="Custom Website">Custom Website</option>
-                                    <option value="Website Template">Website Template</option>
-                                  </select>
-                            </div>
-                        
-                        </div>
-
-                        <label><span class="required">*</span>Message</label>
-                        <textarea 
-                         name="Message"
-                         rows="5"  
-                         class="form-control"
-                         required>
-                        </textarea>
-                        <button   class="submit"  type="submit">Submit</a></button>
-               
-                    </form>
-
-
-            </div>
-            <div class="contact-right">
-                <h3>Reach Us</h3>
-                
-                <table>
-                    <tr>
-                        <td class="yello">Email</td>
-                        <td class="yellow">metcalfetristan8@gmail.com</td>
-                    </tr>
-                    <tr>
-                        <td class="yello">Phone</td>
-                        <td class="yellow">469-268-9579</td>
-                    </tr>
-                    <tr>
-                        <td class="yello">Address</td>
-                        <td class="yellow">Not Telling</td>
-                    </tr>
-                    <a href="services.html"><button class="buttonbb">Dont Know What Service You Want?</button></a>
-
-                </table>
-
-            </div>
+    <header>
+        <div class="container">
+            <h1>Tristan Metcalfe</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a class="active" href="contact.html">Projects</a></li>
+                    <li><a href="ind.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
+    <main>
+        <section class="contact-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="form-container">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Choose a Service:</label>
+                            <select id="service" name="service" required>
+                                <option value="">-- Select a Service --</option>
+                                <option value="renovation">Website Renovation</option>
+                                <option value="template">Website Template</option>
+                                <option value="creation">Website Creation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Web Developer Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
